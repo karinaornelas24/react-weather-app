@@ -1,3 +1,11 @@
 .Weather {
   border: 1px solid;
 }
+
+.Weather h1 {
+  font-family: "Bodoni Moda", serif;
+  color: black;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+}
