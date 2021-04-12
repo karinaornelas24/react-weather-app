@@ -12,12 +12,13 @@ export default function Weather() {
               placeholder="Type a city..."
               className="form-control"
               autoFocus="on"
-              autoComplete="off"
             />
           </div>
+
           <div className="col-2">
             <input type="submit" value="Search" className="btn btn-primary" />
           </div>
+
           <div className="col-1">
             <button type="button" class="btns">
               📍
@@ -27,20 +28,27 @@ export default function Weather() {
       </form>
       <h1>Lisbon</h1>
       <ul>
-        <li>Sunday 11:35</li>
+        <li>Last Updated: Sunday 11:35</li>
         <li>Cloudy</li>
       </ul>
       <div className="row">
         <div className="col-6">
-          <img src="http://openweathermap.org/img/wn/03d@2x.png" alt="Cloudy" />
-          6ºC
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>Precipitation: 15%</li>
-            <li>Humidity: 72%</li>
-            <li>Wind: 13 km/h</li>
-          </ul>
+          <div className="clearfix">
+            <img
+              src="http://openweathermap.org/img/wn/03d@2x.png"
+              alt="Cloudy"
+              className="float-left"
+            />
+            <span className="temperature">6</span>
+            <span className="unit">ºC</span>
+          </div>
+          <div className="col-6">
+            <ul>
+              <li>Precipitation: 15%</li>
+              <li>Humidity: 72%</li>
+              <li>Wind: 13 km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
