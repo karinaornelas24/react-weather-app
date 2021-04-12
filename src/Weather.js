@@ -13,11 +13,9 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       date: "Last Updated 07:00",
       description: response.data.weather[0].description,
-      iconUrl: "http://openweathermap.org/img/wn/02d@2x.png",
+      iconUrl: response.data.weather[0].icon,
       city: response.data.name,
     });
-
-    setReady(true);
   }
 
   if (weatherData.ready) {
