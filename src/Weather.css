@@ -51,7 +51,7 @@
   font-weight: 400;
 }
 
-.Weather img {
+.Weather canvas {
   height: 80px;
   width: 80px;
 }
