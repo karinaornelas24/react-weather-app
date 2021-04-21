@@ -1,8 +1,11 @@
 .WeatherForecast {
   text-align: center;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .temperature-max {
-  font-weight: 300;
+  font-weight: bold;
   margin-left: 5px;
 }
