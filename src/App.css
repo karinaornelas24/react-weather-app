@@ -1,9 +1,15 @@
 .App {
+  font-family: "Bodoni Moda", serif;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .App footer {
   text-align: center;
   font-size: 11px;
+}
+
+.App container {
+  padding: 0px 12px;
+  margin: 0px 104.5px;
 }

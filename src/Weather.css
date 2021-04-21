@@ -33,6 +33,10 @@
   padding: 0;
 }
 
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
 .Weather form {
   margin-bottom: 20px;
   border: none;
